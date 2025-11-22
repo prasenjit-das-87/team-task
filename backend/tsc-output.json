@@ -1,0 +1,48 @@
+{
+    "compilerOptions": {
+        "target": "es2020",
+        "module": "commonjs",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "typeRoots": [
+            "./src/types",
+            "./node_modules/@types"
+        ],
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictBindCallApply": true,
+        "strictPropertyInitialization": true,
+        "strictBuiltinIteratorReturn": true,
+        "alwaysStrict": true,
+        "useUnknownInCatchVariables": true
+    },
+    "files": [
+        "./src/app.ts",
+        "./src/config.ts",
+        "./src/index.ts",
+        "./src/controllers/authController.ts",
+        "./src/controllers/tasksController.ts",
+        "./src/controllers/usersController.ts",
+        "./src/middleware/authMiddleware.ts",
+        "./src/middleware/authorize.ts",
+        "./src/middleware/errorHandler.ts",
+        "./src/middleware/validate.ts",
+        "./src/models/AuthUser.ts",
+        "./src/models/Task.ts",
+        "./src/models/User.ts",
+        "./src/routes/auth.ts",
+        "./src/routes/tasks.ts",
+        "./src/routes/users.ts",
+        "./src/types/bcryptjs.d.ts",
+        "./src/utils/logger.ts"
+    ],
+    "exclude": [
+        "C:/Myproject/team-task-dashboard/backend/dist"
+    ]
+}
