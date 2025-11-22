@@ -48,8 +48,7 @@ Members can view & update only their own tasks.
 
 ### 🐳 Docker Support
 - Build production frontend using NGINX  
-- Backend server in Node  
-- MongoDB container  
+- Backend server in Node   
 - One command to start all services  
 
 ---
@@ -66,7 +65,7 @@ root/
  │   │   ├─ routes/
  │   │   ├─ utils/
  │   │   └─ server.ts
- │   ├─ tests/ (Jest)
+ │   ├
  │   ├─ Dockerfile
  │   └─ package.json
  │
@@ -133,13 +132,7 @@ cd frontend
 npm install
 ```
 
-### 2. Create `.env`
-
-```
-VITE_API_BASE=http://localhost:4000/api
-```
-
-### 3. Run frontend
+### 2. Run frontend
 
 ```
 npm run dev
