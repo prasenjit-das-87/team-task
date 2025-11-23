@@ -221,7 +221,3 @@ password: 123456
 | Create login user | ✔️ | ❌ |
 
 ---
-# Screen Shorts of the Application
-
-### Login Page
-![alt text](image.png)
